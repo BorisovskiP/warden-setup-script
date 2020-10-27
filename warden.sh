@@ -3,10 +3,6 @@ printf "Installing Homebrew"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-printf "Installing fish plugin"
-
-printf "Installing Docker"
-
 printf "Remove old versions of docker"
 
 sudo apt-get remove docker docker-engine docker.io containerd runc
