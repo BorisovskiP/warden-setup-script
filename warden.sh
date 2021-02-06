@@ -38,6 +38,6 @@ brew install davidalger/warden/warden
 if [ $(/etc/init.d/apache2 status | grep -v grep | grep 'Apache2 is running' | wc -l) > 0 ]
 then
 sudo service apache2 stop
-else
 warden svc up
 fi
+warden svc up
